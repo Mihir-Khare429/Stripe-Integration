@@ -1,0 +1,23 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                Web Developement Ebook
+            </h1><p class="lead">Learing Stripe Integration</p>
+            <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_51HDX7AGXuxMb3rqiagucsTeg1vlyBeDtkpycwgkFV7a0Gw4Jf2GVPSWJiUj8C6AlVPLRe4eHfAdCs8XZuOueTPLL00b0khbIpg"
+          data-amount="2500"   
+          data-name="Web Development Ebook"
+          data-description="Ebook written by Mihir Khare"
+          data-image="data:image/png;base64,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"
+          data-locale="auto">
+        </script>
+      </form>
+        </div>
+        <div class="col-md-6">
+            <img src="" class="img-fluid">
+        </div>
+    </div>
+</section>
